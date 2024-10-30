@@ -3,7 +3,7 @@ import reader
 import young
 import deslocamento
 
-'''Stress e deformação (strain) são conceitos importantes na engenharia e na ciência dos materiais. 
+'''Tensão  (stress) e deformação (strain) são conceitos importantes na engenharia e na ciência dos materiais. 
 A diferença entre stress e deformação é que o stress é a força aplicada a um material por unidade de área, 
 enquanto a deformação é a alteração na forma do material resultante da força aplicada.'''
 
