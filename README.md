@@ -15,7 +15,7 @@ This project calculates shear wave velocity and Young’s and shear moduli acros
 ## Descrição
 Este projeto visa calcular a velocidade de propagação da onda de cisalhamento e os módulos de Young e de cisalhamento em diferentes phantoms utilizando mapas de deslocamento gerados por ultrassom. Cada phantom foi submetido a um pulso acústico focalizado e o deslocamento da onda foi registrado ao longo de 148 frames, permitindo cálculos precisos sobre as propriedades do material.
 
-> **Arquivo principal**: O código completo de análise está no notebook **`YoungCisalhamentoPhantom -> NotebookGraficos -> teste.ipynb`**. Este é o arquivo principal onde o cálculo de velocidade da onda, módulo de Young e cisalhamento são realizados, bem como os gráficos ilustrativos.
+> **Arquivo principal**: O código completo de análise está no notebook **`NotebookGraficos -> teste.ipynb`**. Este é o arquivo principal onde o cálculo de velocidade da onda, módulo de Young e cisalhamento são realizados, bem como os gráficos ilustrativos.
 
 ---
 
@@ -27,7 +27,6 @@ Este projeto visa calcular a velocidade de propagação da onda de cisalhamento 
 ## Resumo dos Cálculos
 ### Descrição dos Mapas de Deslocamento
 Os mapas de deslocamento (`disp_map`) são tridimensionais, com dimensões 162x128x148. Cada arquivo contém:
-- 148 frames
 - Resolução lateral de 38,4 mm (`dx = 0,2977 mm`)
 - Resolução axial de 15 mm (`dz = 0,1885 mm`)
 
